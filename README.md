@@ -14,9 +14,13 @@ The project emphasizes good quant research practices, including:
 ## Key Features
 
 📊 Historical price data processing
+
 🧠 Feature engineering using technical indicators
+
 🤖 Machine learning models (Logistic Regression, Random Forest)
+
 🔁 Walk-forward validation (time-series aware)
+
 💰 Strategy backtesting & equity curve analysis
 
 ### Features Used
@@ -46,7 +50,7 @@ Models are trained using walk-forward validation to simulate real trading condit
 ## Validation Methodology
 
 - Walk-forward / expanding window
-- -No random shuffling
+- No random shuffling
 - Strict chronological order
 
 This ensures realistic out-of-sample performance.
